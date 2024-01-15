@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Solutions.LeetCode/obj
+/Solutions.LeetCode/.vs/Solutions.LeetCode/FileContentIndex
+/Solutions.LeetCode/.vs/Solutions.LeetCode/v17
