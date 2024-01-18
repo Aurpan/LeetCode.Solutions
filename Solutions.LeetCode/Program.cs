@@ -30,20 +30,27 @@ namespace Solutions.LeetCode
 
             #region 1. Two Sum
 
-            var obj01 = new ArrayProblems.LeetCode_01();
+            //var obj01 = new ArrayProblems.LeetCode_01();
 
-            int[] nums = { 2, 5, 5, 11 };
-            //var result = obj01.TwoSum(nums, 10);
-            var result = obj01.TwoSum_Better(nums, 10);
-            
-            foreach (int num in result) 
-            {
-                Console.WriteLine(num);
-            }
+            //int[] nums = { 2, 5, 5, 11 };
+            ////var result = obj01.TwoSum(nums, 10);
+            //var result = obj01.TwoSum_Better(nums, 10);
+
+            //foreach (int num in result) 
+            //{
+            //    Console.WriteLine(num);
+            //}
 
             #endregion
 
 
+            #region 49. Group Anagrams
+
+            var obj49 = new LeetCode_49();
+
+            var x = obj49.GroupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]);
+
+            #endregion
 
         }
     }
