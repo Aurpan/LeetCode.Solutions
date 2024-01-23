@@ -46,9 +46,18 @@ namespace Solutions.LeetCode
 
             #region 49. Group Anagrams
 
-            var obj49 = new LeetCode_49();
+            //var obj49 = new LeetCode_49();
 
-            var x = obj49.GroupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]);
+            //var x = obj49.GroupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]);
+
+            #endregion
+
+
+            #region 347. Top K Frequent Elements
+
+            var obj347 = new LeetCode_347();
+
+            var x = obj347.TopKFrequent([1, 1, 1, 2, 2, 3], 3);
 
             #endregion
 
