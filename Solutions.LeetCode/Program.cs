@@ -64,9 +64,18 @@ namespace Solutions.LeetCode
 
             #region 238. Product of Array Except Self
 
-            var obj238 = new LeetCode_238();
+            //var obj238 = new LeetCode_238();
 
-            var x = obj238.ProductExceptSelf([4, 3]);
+            //var x = obj238.ProductExceptSelf([4, 3]);
+
+            #endregion
+
+
+            #region 128. Longest Consecutive Sequence
+
+            var obj128 = new LeetCode_128();
+
+            var x = obj128.LongestConsecutive([100, 4, 200, 1, 3, 2]);
 
             #endregion
 
