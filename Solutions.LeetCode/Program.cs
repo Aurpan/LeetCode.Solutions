@@ -55,9 +55,18 @@ namespace Solutions.LeetCode
 
             #region 347. Top K Frequent Elements
 
-            var obj347 = new LeetCode_347();
+            //var obj347 = new LeetCode_347();
 
-            var x = obj347.TopKFrequent([1, 1, 1, 2, 2, 3], 3);
+            //var x = obj347.TopKFrequent([1, 1, 1, 2, 2, 3], 3);
+
+            #endregion
+
+
+            #region 238. Product of Array Except Self
+
+            var obj238 = new LeetCode_238();
+
+            var x = obj238.ProductExceptSelf([4, 3]);
 
             #endregion
 
