@@ -1,5 +1,6 @@
 ﻿using Solutions.LeetCode.ArrayProblems;
 using Solutions.LeetCode.StringProblems;
+using Solutions.LeetCode.TwoPointersProblems;
 
 namespace Solutions.LeetCode
 {
@@ -66,16 +67,25 @@ namespace Solutions.LeetCode
 
             //var obj238 = new LeetCode_238();
 
-            //var x = obj238.ProductExceptSelf([4, 3]);
+            //var result = obj238.ProductExceptSelf([4, 3]);
 
             #endregion
 
 
             #region 128. Longest Consecutive Sequence
 
-            var obj128 = new LeetCode_128();
+            //var obj128 = new LeetCode_128();
 
-            var x = obj128.LongestConsecutive([100, 4, 200, 1, 3, 2]);
+            //var result = obj128.LongestConsecutive([100, 4, 200, 1, 3, 2]);
+
+            #endregion
+
+
+            #region 125. Valid Palindrome
+
+            var obj125 = new LeetCode_125();
+
+            var result = obj125.IsPalindrome("race a car");
 
             #endregion
 
