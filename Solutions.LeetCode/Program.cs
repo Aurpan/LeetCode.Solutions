@@ -83,9 +83,18 @@ namespace Solutions.LeetCode
 
             #region 125. Valid Palindrome
 
-            var obj125 = new LeetCode_125();
+            //var obj125 = new LeetCode_125();
 
-            var result = obj125.IsPalindrome("race a car");
+            //var result = obj125.IsPalindrome("race a car");
+
+            #endregion
+
+
+            #region 167. Two Sum II - Input Array Is Sorted
+
+            var obj167 = new LeetCode_167();
+
+            var result = obj167.TwoSum([2, 7, 11, 15], 9);
 
             #endregion
 
