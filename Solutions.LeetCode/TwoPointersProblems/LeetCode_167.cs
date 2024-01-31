@@ -5,6 +5,8 @@ namespace Solutions.LeetCode.TwoPointersProblems
     // 167. Two Sum II - Input Array Is Sorted
     public class LeetCode_167
     {
+        // T.C. => O(n)
+        // S.C. => O(1)
         public int[] TwoSum(int[] numbers, int target)
         {
             if (numbers.Length == 2)

@@ -92,11 +92,13 @@ namespace Solutions.LeetCode
 
             #region 167. Two Sum II - Input Array Is Sorted
 
-            var obj167 = new LeetCode_167();
+            //var obj167 = new LeetCode_167();
 
-            var result = obj167.TwoSum([2, 7, 11, 15], 9);
+            //var result = obj167.TwoSum([2, 7, 11, 15], 9);
 
             #endregion
+
+
 
         }
     }
