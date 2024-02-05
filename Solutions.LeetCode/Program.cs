@@ -99,6 +99,13 @@ namespace Solutions.LeetCode
             #endregion
 
 
+            #region 15. 3Sum
+
+            var obj15 = new LeetCode_15();
+
+            var result = obj15.ThreeSum([-1, 0, 1, 0]);
+
+            #endregion
 
         }
     }
